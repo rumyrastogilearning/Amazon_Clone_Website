@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    border:border-box
+}
+.navbar{
+   height: 60px;
+   background-color: #131921;
+   color: white;
+   display: flex;
+   align-items: center;
+   
+}
+
+
+.navlogo{
+    background-image: url(images/logo/AmazonLogo.jpg);    
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100px;  
+    margin: 5px 0px 0px 10px;
+    
+}   
+
+.border{
+    border: 1px solid transparent;
+    
+}
+
+.border:hover{
+    border: 1px solid white;
+   
+}
+
+/* Location */
+
+.navlocation{
+    display: flex;   
+    margin: 5px 0px 0px 0px;
+    height: 50px;
+   
+}
+.location-icon{
+    height: 20px;
+    width: 20px;
+    margin: 15px 0px 0px 10px;
+}
+
+.location-text{
+    font-size: 0.8rem;
+    margin: 5px 0px 0px 0px;
+    color:#ccc;
+}
+
+/* Update Location */
+.update-location{
+    font-size: 1rem;
+    margin: 5px 0px 0px 0px;
+    color:white;
+}
