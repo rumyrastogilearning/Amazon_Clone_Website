@@ -1,44 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon Clone</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="navbar">
 
-            <div class="navlogo border">
+            <div class="navlogo border"></div>
+
+            <div class="navlocation border">
+                <div class="location-icon">
+                    <i class="fa-mosaic fa-solid fa-location-dot"></i>
+                </div>
+
+                <div class="address">
+                    <p class="location-text">Delivering to</p>
+                    <span class="update-location">Update location</span>
+                </div>
             </div>
-        
-        <div class="navlocation border">
-            <div class="location-icon">
-            <i class="fa-mosaic fa-solid fa-location-dot"></i>
-            </div>           
-            <div class="address">  
-                <p class="location-text">Delivering to</p>             
-               <span class="update-location">Update location</span>
-            </div>
-        </div>
 
-        <div class="navsearch">
 
-            <select class="search-category" name="category" >
-                <option value="All Departments">All</option>
-                <option value="books">Books</option>
-                <option value="electronics">Electronics</option>
-                <option value="fashion">Fashion</option>
-                <option value="home">Home & Kitchen</option>
-            </select>
+            <div class="navsearch">
 
-            <input type="text" class="search-input" placeholder="Search Amazon">
+                <select class="search-category" name="category">
+                    <option value="All Departments">All</option>
+                    <option value="books">Books</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="fashion">Fashion</option>
+                    <option value="home">Home & Kitchen</option>
+                </select>
 
-            <div class="search-icon">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
+                <input type="text" class="search-input" placeholder="Search Amazon">
+
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
             </div>
 
             <div class="navChangeLanguage border">
@@ -49,20 +54,42 @@
 
             <div class="common-navcode border">
                 <span class="signin-text">Hello, Sign in</span>
-                <span class="account-text">Account & Lists </span>                
+                <span class="account-text">Account & Lists </span>
             </div>
 
             <div class="common-navcode border">
                 <span class="returns-text">Returns</span>
-                <span class="orders-text"> & Orders </span>                
+                <span class="orders-text"> & Orders </span>
             </div>
 
             <div class="navCart border">
                 <span class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></span>
                 <span class="cart">Cart</span>
             </div>
-
+        </div>
+        <div class="panel">
+            <div class="panel-all">
+                <span class="panel-icon"><i class="fa-solid fa-bars"></i></span>
+                <span class="panel-text">All</span>
+            </div>
+            <div class="panel-ops">
+            <p>Health AI</p>
+            <p>Amazon Haul</p>
+            <p>Madical Care</p>
+            <p>Amazon Basics</p>
+            <p>Best Sellers</p>
+            <p>Prime</p>
+            <p>New Releases</p>
+            <p>Groceries</p>
+            <p>Whole Foods</p>
+            <p>Today's deal</p>
+            <p>Books</p>
+            <p>Gift Cards</p>
+            <p>Sell</p>
+            <p>Feshion</p>
+            <p>Registry</p>
+            <p>Music</p>
+        </div>
         </div>
     </header>
 </body>
-        
