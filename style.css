@@ -10,6 +10,9 @@
    color: white;
    display: flex;
    align-items: center;
+   position: fixed;
+   width: 100%;
+  
    
 }
 
@@ -38,7 +41,8 @@
 
 .navlocation{
     display: flex;   
-    margin: 5px 0px 0px 0px;
+    /* margin: 5px 0px 0px 0px; */
+    margin: 5px 0px 0px 10px;
     height: 50px;
    
 }
@@ -54,9 +58,93 @@
     color:#ccc;
 }
 
-/* Update Location */
+
 .update-location{
     font-size: 1rem;
     margin: 5px 0px 0px 0px;
     color:white;
+}
+ /* Search Box */
+
+ .navsearch{
+    display: flex;   
+    margin: 5px 0px 0px 10px;
+    
+    height: 40px;
+    width: 50%;
+     background-color: #131921;
+     
+         
+ }
+
+ .search-category{
+    background-color: rgb(179, 175, 175);
+    border: 3px solid rgb(245, 161, 4);
+    border-radius: 10px 0px 0px 10px;
+    width: 50px;
+    text-align: center;
+ }
+
+ .search-input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+ }
+
+ .search-icon{
+    background-color: rgb(246, 182, 64);
+    border: 3px solid rgb(251, 183, 57);
+    border-radius: 0px 10px 0px 0px;
+    padding: 5px;
+    width: 45px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: black;
+    
+ }
+ .search-icon:hover{    
+    cursor: pointer;
+ }
+
+ .search-category:hover{
+    cursor: pointer;
+ }
+
+ /* Change Language */
+ .navChangeLanguage{
+    display: flex;   
+    width: 50px;
+   height: 50px;
+    background-color: #131921;
+    margin: 5px 0px 0px 10px;
+    font-size: .8rem;  
+    align-items: center;
+   
+ }
+
+ .navSignin{    
+   width: 200px;
+   background-color: #131921;
+   height: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 110px;
+  margin: 5px 0px 0px 10px; 
+  gap: 2px;
+  justify-content: center;
+  
+ }
+
+ .signin-text{
+    font-size: 0.7rem;
+   
+    color:#ccc;
+}
+
+.account-text{
+    font-size: 0.85rem;
+    
+    color:white;
+    font-weight: 700;
 }
