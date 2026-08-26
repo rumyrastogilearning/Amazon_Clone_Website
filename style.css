@@ -12,7 +12,7 @@
    align-items: center;
    position: fixed;
    width: 100%;
-  
+  justify-content: space-evenly;
    
 }
 
@@ -79,7 +79,7 @@
 
  .search-category{
     background-color: rgb(179, 175, 175);
-    border: 3px solid rgb(245, 161, 4);
+    border: .5px solid rgb(245, 161, 4);
     border-radius: 10px 0px 0px 10px;
     width: 50px;
     text-align: center;
@@ -90,10 +90,11 @@
     border: none;
     outline: none;
     padding: 5px;
+    border: .5px solid rgb(245, 161, 4);
  }
 
  .search-icon{
-    background-color: rgb(246, 182, 64);
+    background-color: rgb(225, 181, 98);
     border: 3px solid rgb(251, 183, 57);
     border-radius: 0px 10px 0px 0px;
     padding: 5px;
@@ -123,18 +124,26 @@
    
  }
 
- .navSignin{    
-   width: 200px;
+
+ /*create common class for signin, returns and orders*/
+
+
+ .common-navcode{
+    width: 200px;
    background-color: #131921;
    height: 50px;
   display: flex;
   flex-direction: column;
-  width: 110px;
+  width: auto;
   margin: 5px 0px 0px 10px; 
   gap: 2px;
   justify-content: center;
-  
+   
  }
+
+ /* Sign In */
+
+ 
 
  .signin-text{
     font-size: 0.7rem;
@@ -147,4 +156,53 @@
     
     color:white;
     font-weight: 700;
+}
+
+/* Returns & Orders */
+
+.navReturnsOrders{    
+    width: 200px;
+    background-color: #131921;
+    height: 50px;
+   display: flex;
+   flex-direction: column;
+   width: 110px;
+   margin: 5px 0px 0px 10px; 
+   gap: 2px;
+   justify-content: center;
+   
+  }
+  
+  .returns-text{
+     font-size: 0.7rem;    
+     color:#ccc;
+ }
+ 
+ .orders-text{
+     font-size: 0.85rem;     
+     color:white;
+     font-weight: 700;
+ }
+
+ /* Cart */
+
+ .navCart{
+    display: flex;   
+    width: auto;
+   height: 50px;
+    background-color: #131921;
+    margin: 5px 0px 0px 10px;
+     align-items: center;
+    
+ }
+
+.cart-icon{
+        font-size: 2rem;
+        
+}
+
+.cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    align-items: end;
 }
