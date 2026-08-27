@@ -291,7 +291,7 @@ header{
 
 
 
-/* Main Section */
+/* Main Section 1*/
 .main-content-1{
     width: 100%;
     height: auto;
@@ -316,5 +316,27 @@ header{
     border: 1px solid transparent;
     cursor: pointer;
 }
+
+/* Main Section 2*/
+.main-content-2{
+    display: grid;
+     grid-template-rows:repeat(4, 1fr);
+    grid-template-columns:repeat(4, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: #EAEDED;
+    height: auto;
+    width: 100%;
+
+}
+
+.shop-item{ 
+    background-color: white;
+    height: 300px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+   
+}
+
 
 
