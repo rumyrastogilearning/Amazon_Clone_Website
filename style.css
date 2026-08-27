@@ -242,3 +242,79 @@ header{
     padding: 8px;
 }
 
+
+/*Arrow*/
+
+.arrow-container-left{
+    display: flex;
+    background-color: #c7d0db;
+    height: 100px;
+    width: 50px;
+    border: 1px solid transparent;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    top:40%;
+    left:0;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+   
+
+}
+
+
+
+.arrow-container-right{
+    display: flex;
+    background-color: #c7d0db;
+    height: 100px;
+    width: 50px;
+    border: 1px solid transparent;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    top:40%;    
+    right:0;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+  
+}
+
+.arrow-container-right a, .arrow-container-left a{
+    color: black;
+}
+
+
+
+
+/* Main Section */
+.main-content-1{
+    width: 100%;
+    height: auto;
+    background-color: #EAEDED;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+    position: relative;
+}    
+
+.slide{
+    background-image: url(images/image1.jpg);
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    height: 460px;
+    width: 20%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.slide:hover{
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+
